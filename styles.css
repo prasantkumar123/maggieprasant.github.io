@@ -82,7 +82,7 @@ h1{
      -webkit-background-clip: text; 
   background-position: center;
 }
-h2, h3{
+h2{
     font-size:60px;
 }
 #false{
@@ -136,7 +136,7 @@ audio{
     width:350px;
     border-radius:30%;
 }
-h2{
+h2, h3{
     color:white;
     text-shadow:1px 2px 5px #66ff00, 4px 6px 5px #12fff9;
 }
