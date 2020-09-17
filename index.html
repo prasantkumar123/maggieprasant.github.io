@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>maggieprasant</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    </head>
+    <body>
+  
+<div id="false">
+ <h3>Just wait....<br><pre>   
+ 
+ 
+ </pre> First think and then open</h3>
+    <button id="btn" onclick="show()"><h3>Click me and open Box !</h3></button>
+</div>
+<div id="container">
+    <div class="hand m"></div>
+       <div class="box mag">
+           <script>
+               
+               for (i =0; i <= 100; i++){
+                   document.write("🍜");
+               }
+           </script>
+       </div> 
+       <div class="box bx mg">
+           <h1>click me</h1>
+       </div>
+       
+       
+         <div class="hand c"></div>
+       <div class="box choco">
+            <script>
+               
+               for (i =0; i <= 150; i++){
+                   document.write("🍫");
+               }
+           </script>
+       </div> 
+       <div class="box bx ch">
+           <h1>click me</h1>
+       </div>
+       
+         <div class="hand i"></div>
+       <div class="box ice">
+            <script>
+               
+               for (i =0; i <= 200; i++){
+                   document.write("🍧");
+               }
+           </script>
+       </div> 
+       <div class="box bx ic">
+           <h1>click me</h1>
+       </div>
+    
+<div class="txt" align="center">
+   <h1> Aur Chahiye kya ?</h1>
+   <h2 align="center">😅</h2>
+   
+  <div class="last">
+    <h1>
+Wahh ! Achha khusbu aa rha hein . Lagta hein Maa maggie bana rha hein 
+    </h1>
+    <h2>😋</h2></div>
+    
+<h2>🤫🤫 Chup chap kha lena nhi toh mein kha jaunga 😝</h2>
+  
+</div>
+</div>
+
+  <audio id="audio" onclick="playAudio()" controls autoplay loop>
+  <source src="https://dl.dropbox.com/s/h5y741lfrabhidg/13%20Party%20All%20Night%20%28Club%20Mix%29%20DJ%20Chetan%20%5BPagalWorld.com%5D.mp3?dl=1" type="audio/mpeg">
+  <script>
+  var sh = document.getElementById("container");
+  var hd = document.getElementById("false");
+  
+  function show(){
+      sh.style.display = "block";
+      hd.style.opacity ="0";
+      hd.style.pointerEvents= "none";
+  }
+ 
+  
+  function playAudio() {
+    audio.preload;
+    audio.play();
+}
+const eventBasedOnDevice = navigator.userAgent.match(/ipod|ipad|iphone/i) 
+    ? 'touchstart' : 'click';
+window.addEventListener(eventBasedOnDevice, playAudio);
+
+  </script>
+    </body>
+</html>

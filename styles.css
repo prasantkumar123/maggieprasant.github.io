@@ -1,0 +1,151 @@
+body {
+    background:linear-gradient(60deg, #8e0e00, 
+#1f1c18);
+    background-repeat:no-repeat;
+    height:100vh;
+    width:100vw;
+    background-size:cover;
+    background-attachment:fixed;
+}
+.box{
+      background:linear-gradient(50deg, orange, red, chocolate);
+    position:absolute ;
+    left:40px;
+    z-index:10;
+    background-position:center ;
+    max-width:300px;
+    transition:1s;
+    font-size:17.5px;
+}
+.bx{
+    background:linear-gradient(50deg, #cc2b5e, #753a88);
+    overflow:hidden ;
+}
+.hand{
+    height:200px;
+    width:250px;
+    left:60px;
+    border-radius:45%;
+    position:relative ;
+    box-shadow:0 -10px 0 brown;
+    z-index:0;
+}
+.m{
+    top:70px;
+}
+.mag{
+    
+    top:150px;
+}
+.c{
+    top:140px;
+}
+.choco{
+    top:400px;
+}
+.i{
+    top:250px;
+}
+.ice{
+    top:720px;
+}
+.mg{
+    height:165px;
+    width:300px;
+    top:150px;
+}
+.ch{
+    height:246.5px;
+    width:300px;
+    top:400px;
+}
+.ic{
+    height:329px;
+    width:300px;
+    top:720px;
+}
+.mg:hover, .ch:hover, .ic:hover{
+    width:0;
+}
+.txt{
+    position:absolute;
+    top:1050px;
+    height:200px;
+    width:340px;
+}
+h1{
+    font-size:70px;
+    font-weight:600px;
+    font-family: 'Lobster', cursive;
+    color:transparent; background:url("https://media.tenor.com/images/2d04da00ecf31f6065b436094f0b9c95/tenor.gif");
+    background-clip:text-box;
+     -webkit-background-clip: text; 
+  background-position: center;
+}
+h2{
+    font-size:60px;
+}
+#false{
+    height:100vh;
+    width:100vw;
+    margin:-10px;
+    padding:-10px;
+    position:absolute;
+    background:linear-gradient(45deg, #EB5757, #000000);
+    background-attachment:fixed;
+    z-index:100;
+    transition:3s;
+    color:white;
+}
+#container{
+    display:none;
+}
+#btn{
+    background-position:center;
+    background:linear-gradient(45deg, yellow, orange, red);
+    border:none;
+    outline:none;
+    border-radius:40%;
+    height:20%;
+    width:80%;
+    position:absolute;
+    top:20%;
+    left:10%;
+    font-size:50px;
+    box-shadow:5px 6px 10px grey;
+    font-family: 'Lobster', cursive;
+    color:white;
+}
+h3{
+    font-size:30px;
+}
+audio{
+    display:none;
+}
+.last{
+    height:30px;
+    width:30px;
+    background:#ff1fc5;
+    overflow:hidden;
+    border-radius:50%;
+    transition:2s;
+    animation:col 3s ease-in 1s infinite forwards;
+}
+.last:hover{
+    height:750px;
+    width:350px;
+    border-radius:30%;
+}
+h2{
+    color:white;
+    text-shadow:1px 2px 5px #66ff00, 4px 6px 5px #12fff9;
+}
+@keyframes col{
+    0%{background:#ff1fc5;}
+    33%{background:#1b09ff;}
+    66%{background:#0dff3d;}
+    100%{background:#ff1fc5;}
+}
+.last::before{
+    content:"click";
+}
