@@ -82,7 +82,7 @@ h1{
      -webkit-background-clip: text; 
   background-position: center;
 }
-h2{
+h2, h3{
     font-size:60px;
 }
 #false{
